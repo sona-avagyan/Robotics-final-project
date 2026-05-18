@@ -18,21 +18,23 @@ A production-ready robotics final project that implements a grid-based **Dijkstr
 ## 📦 Installation & Setup
 
 ### 1. Clone & Navigate to Repository
-```bash
+Bash
 cd "robotics final project"
-2. Install Required Dependencies
+
+### 2. Install Required Dependencies
 Ensure you have Python 3.10 or higher installed. Run the following command to download all backend and mathematical frameworks:
 
 Bash
 pip install -r requirements.txt
-3. Spin Up the Web Server
+
+### 3. Spin Up the Web Server
 Execute the server using Uvicorn:
 
 Bash
 python3 main.py
 The server will initialize and begin listening for requests locally at http://127.0.0.1:8000.
 
-📖 Interactive API Documentation (Swagger UI)
+## 📖 Interactive API Documentation (Swagger UI)
 FastAPI generates automated, interactive documentation out-of-the-box.
 
 Open your web browser and navigate to: http://127.0.0.1:8000/docs
@@ -41,17 +43,9 @@ Expand any planning endpoint (e.g., POST /plan/animate).
 
 Click "Try it out", modify any coordinates or resolution attributes within the JSON payload body, and hit "Execute".
 
-📊 Visual Reference Examples
+## 📊 Visual Reference Examples
 Static Evaluation Map (/plan/plot)
 Displays the generated matrix trajectory layout cleanly circumventing obstacles while highlighting safety boundaries.
 
-Dynamic Search Animation (/plan/animate)
+## Dynamic Search Animation (/plan/animate)
 An animated simulation outlining real-time Dijkstra node explorations and final route confirmation with a 2-second review delay.
-
-
-### 💡 Quick update reminder:
-Now that you have this file ready, just push it up to GitHub using your clean environment steps:
-```bash
-git add README.md
-git commit -m "docs: Add comprehensive English README documentation"
-git push origin main
