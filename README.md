@@ -18,20 +18,17 @@ A production-ready robotics final project that implements a grid-based **Dijkstr
 ## 📦 Installation & Setup
 
 ### 1. Clone & Navigate to Repository
-Bash
-cd "robotics final project"
+```cd "robotics final project"```
 
 ### 2. Install Required Dependencies
 Ensure you have Python 3.10 or higher installed. Run the following command to download all backend and mathematical frameworks:
 
-Bash
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ### 3. Spin Up the Web Server
 Execute the server using Uvicorn:
 
-Bash
-python3 main.py
+```python3 main.py```
 The server will initialize and begin listening for requests locally at http://127.0.0.1:8000.
 
 ## 📖 Interactive API Documentation (Swagger UI)
